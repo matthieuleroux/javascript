@@ -1,3 +1,51 @@
-body{
-    color: gray;
+#left-col, #right-col{
+    display: inline-block;
+    vertical-align: top;
 }
+
+#left-col{
+    width: 65%;
+}
+
+#right-col{
+    width: 34.5%;
+}
+
+.content-list-view-message > img{
+    width: 48px;
+    height: 54px;
+}
+
+.content-list-view-message > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-list-view-message{
+    display: flex;
+}
+
+.message-content{flex-grow: 1;}
+.message-datetime{min-width: 100px; text-align: center;}
+.content-list-view-user{display: flex;}
+.content-list-view-user > div{
+    vertical-align: baseline;
+    font-size: xx-large;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.content-list-view-user{width: 70px; height: 80px;}
+
+h2{
+    color: skyblue;
+    text-decoration: underline tomato;
+}
+
+.content-list-view-user:hover{
+   background-color: lightgray;
+}
+
+.user-name:hover{text-shadow: 10px 10px 25px black; zoom: 200%;}
+
+.averto{background-color: red; text-align: center;}
