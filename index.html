@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <
+
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" media="screen" href="lib/bootstrap.css">
     <script src="lib/jquery.js"></script>
     <script src="lib/bootstrap.js"></script>
-    
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
+
+    <nav class="navbar navbar-inverse">
+        <a class="navbar-brand" href="#">Tchat</a>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Link</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="tchat-content">
+        <div id="tchat_first_row">
+            <div id="left_col" class="border content-list-view">
+                <h2>messages</h2>
+                <div class="content-list-view-item">
+                    <img src="https://picsum.photos/id/684/600/400" alt="OUPS!!!" class="message-image">
+                    <div class="message-datetime">2021-05-25<br />12:49:00</div>
+                    <div class="message-datetime">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        quis officiis nostrum ex placeat explicabo. Impedit quo cupiditate repellendus esse officiis,
+                        tempora porro voluptatum ea, commodi eos odio aperiam in.</div>
+
+                </div>
+            </div>
+            <div id="right_col" class="border content-list-view">
+                <h2>utilisateurs</h2>
+            </div>
+        </div>
+        <div id="tchat_second_row" class="border">
+            editeur de messages
+        </div>
+    </div>
+    <!-- Doc -->
+
 </body>
+
 </html>
